@@ -61,6 +61,46 @@ Cada implementação utiliza a entidade `Note` como exemplo prático.
 
 ---
 
+
+## 🔍 Comparação de Performance
+
+| Tecnologia       | Velocidade Leitura | Velocidade Escrita | Facilidade de Uso | Type Safety |
+|------------------|-------------------|-------------------|------------------|-------------|
+| SharedPreferences | Baixa             | Baixa             | ⭐⭐⭐⭐⭐            | ⭐⭐          |
+| Hive              | ⭐⭐⭐⭐⭐             | ⭐⭐⭐⭐⭐             | ⭐⭐⭐⭐             | ⭐⭐⭐⭐        |
+| SQLite            | ⭐⭐⭐⭐              | ⭐⭐⭐               | ⭐⭐               | ⭐⭐          |
+| Drift             | ⭐⭐⭐⭐              | ⭐⭐⭐               | ⭐⭐⭐              | ⭐⭐⭐⭐⭐       |
+| ObjectBox         | ⭐⭐⭐⭐⭐             | ⭐⭐⭐⭐⭐             | ⭐⭐⭐              | ⭐⭐⭐⭐        |
+| Isar              | ⭐⭐⭐⭐⭐             | ⭐⭐⭐⭐⭐             | ⭐⭐⭐⭐             | ⭐⭐⭐⭐⭐       |
+
+---
+
+## 🎯 Quando Usar
+
+- **SharedPreferences:** dados simples, preferências, <1MB.  
+- **Hive:** rápido, leve, sem dependências nativas.  
+- **SQLite:** queries SQL, dados relacionais complexos.  
+- **Drift:** type-safety, reatividade, migrations automáticas.  
+- **ObjectBox:** performance extrema, IoT, dados orientados a objetos.  
+- **Isar:** moderno, schema flexível, milhões de registros.  
+
+---
+---
+
+## 📚 Recursos Adicionais
+- [SharedPreferences](https://pub.dev/packages/shared_preferences)  
+- [Hive](https://docs.hivedb.dev/)  
+- [sqflite](https://pub.dev/packages/sqflite)  
+- [Drift](https://drift.simonbinder.eu/)  
+- [ObjectBox](https://docs.objectbox.io/)  
+- [Isar](https://isar.dev/)  
+
+---
+
+## 👥 Grupo de Estudo Gralha Azul
+Este projeto faz parte dos estudos do **Grupo de Estudo Gralha Azul**, onde exploramos práticas e tecnologias Flutter.  
+Junte-se a nós para aprender e compartilhar conhecimento! 🚀  
+
 ## Índice
 
 1. SharedPreferences  
